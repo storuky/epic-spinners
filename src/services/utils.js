@@ -10,7 +10,7 @@ export default {
       return
     }
     sheet.setAttribute('id', name)
-    sheet.innerHTML = `@keyframes ${name} {${frames}}`
+    sheet.innerHTML = "@keyframes "+name+" {"+frames+"}"
     document.body.appendChild(sheet)
   },
   /**
